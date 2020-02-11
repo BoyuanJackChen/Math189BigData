@@ -65,7 +65,6 @@ def RMSE_vs_lambda(X_train, y_train, X_val, y_val):
 	# Construct a list of regularization parameters with random uniform sampling
 	# Then, generate a list of W_opt's according to these parameters
 	# Finally, generate a list of RMSE according to reg_list
-	# YOUR CODE GOES BELOW
 	reg_list = np.random.uniform(0.0, 150.0, 150)
 	reg_list.sort()
 	W_list = [linreg(X_train, y_train, reg = lb) for lb in reg_list]
@@ -126,7 +125,6 @@ def linreg_no_bias(X, y, reg = 0.0):
 	'''
 	t_start = time.time()
 	# Find the numerical solution in part d
-	# YOUR CODE GOES BELOW
 	m = X.shape[0]
 	ones = np.eye(m)
 	Aggregate = X.T @ (np.eye(m) - np.ones(m) / m)
