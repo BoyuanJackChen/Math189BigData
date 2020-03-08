@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63cbe02d-a22a-4a75-8afc-9429b2c3a1a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Math189BigData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Math189BigData.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/RMSE_vs_lambda.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/RMSE_vs_lambda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/convergence.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/convergence.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW2/hw2pr3_sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/hw2pr3_sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/norm_vs_lambda.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/norm_vs_lambda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/q6.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/q6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>csv</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +44,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.hw2pr3_sol">
     <configuration name="hw2pr3_sol" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Math189BigData" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +67,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="q6" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Math189BigData" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/q6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Math189BigData" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.hw2pr3_sol" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.q6" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="32" BundledDictionary0="@types.dic" BundledDictionary1="lodash.dic" BundledDictionary2="pythonExtras.dic" BundledDictionary3="eslint-config-airbnb.dic" BundledDictionary4="jetbrains.dic" BundledDictionary5="firebase.dic" BundledDictionary6="english.dic" BundledDictionary7="vuex.dic" BundledDictionary8="django.dic" BundledDictionary9="eslint.dic" BundledDictionary10="redux.dic" BundledDictionary11="less.dic" BundledDictionary12="core-js.dic" BundledDictionary13="express.dic" BundledDictionary14="prettier.dic" BundledDictionary15="angular.dic" BundledDictionary16="rxjs.dic" BundledDictionary17="vuetify.dic" BundledDictionary18="css.dic" BundledDictionary19="request.dic" BundledDictionary20="zone.js.dic" BundledDictionary21="@angular.dic" BundledDictionary22="async.dic" BundledDictionary23="bluebird.dic" BundledDictionary24="_javascript.dic" BundledDictionary25="cloudfront.dic" BundledDictionary26="python.dic" BundledDictionary27="graphql.dic" BundledDictionary28="javascript.dic" BundledDictionary29="heroku.dic" BundledDictionary30="vue.dic" BundledDictionary31="debug.dic" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
@@ -106,6 +149,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="369" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582427458932">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="369" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1582427458932" />
+    <state width="882" height="194" key="GridCell.Tab.0.bottom" timestamp="1582429378861">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="882" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1582429378861" />
+    <state width="882" height="194" key="GridCell.Tab.0.center" timestamp="1582429378860">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="882" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1582429378860" />
+    <state width="882" height="194" key="GridCell.Tab.0.left" timestamp="1582429378860">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="882" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1582429378860" />
+    <state width="882" height="194" key="GridCell.Tab.0.right" timestamp="1582429378861">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="882" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1582429378861" />
     <state x="363" y="58" key="SettingsEditor" timestamp="1581365572027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

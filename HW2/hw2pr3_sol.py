@@ -20,7 +20,6 @@ def linreg(X, y, reg=0.0):
 	# Use np.eye to create identity matrix
 	# Use np.linalg.solve to solve W_opt
 
-	# YOUR CODE GOES BELOW
 	eye = np.eye(X.shape[1])
 	eye[0, 0] = 0 # don't regularize the bias term
 	W_opt = np.linalg.solve(X.T @ X + reg * eye, X.T @ y)
@@ -43,7 +42,6 @@ def find_RMSE(W, X, y):
 
 		Return the root mean-squared error.
 	'''
-	# YOUR CODE GOES BELOW
 	y_pred = predict(W, X)
 	diff = y - y_pred
 	m = X.shape[0]
@@ -251,7 +249,6 @@ if __name__ == '__main__':
 	# Stack a column of ones to the feature data
 	# Use np.ones / np.ones_like to create a column of ones
 	# Use np.hstack to stack the column to the matrix
-	# YOUR CODE GOES BELOW
 	X_train = np.hstack((np.ones_like(y_train), X_train))
 	X_val = np.hstack((np.ones_like(y_val), X_val))
 	X_test = np.hstack((np.ones_like(y_test), X_test))
@@ -295,7 +292,6 @@ if __name__ == '__main__':
 	X_train = X_train[:, 1:]
 	X_val = X_val[:, 1:]
 	X_test = X_test[:, 1:]
-	# Fill in the code in linreg_no_bias
 	# Compare the result with the one from step 1
 	# The difference in norm should be a small scalar (i.e, 1e-10)
 	print('\n==> Step 3: Linear regression without bias...')
