@@ -16,14 +16,12 @@ def grad_logreg(X, y, W, reg = 0.0):
 	'''
 		Return the gradient of W for logistic regression.
 	'''
-	# YOUR CODE BELOW
 	return X.T @ (sigmoid(X @ W) - y) + reg * W
 
 def newton_step(X, y, W, reg = 0.0):
 	'''
-	Return the change of W according to Newton's method.
+		Return the change of W according to Newton's method.
 	'''
-	# YOUR CODE BELOW
 	mu = sigmoid(X @ W)
 	g = grad_logreg(X, y, W, reg = reg)
 	diag = np.diag(np.squeeze(np.asarray(np.multiply(mu, 1. - mu))))
@@ -35,7 +33,6 @@ def NLL(X, y, W, reg = 0.0):
 	'''
 		Calculate negative log likelihood.
 	'''
-	# YOUR CODE GOES BELOW
 	mu = sigmoid(X @ W)
 	temp = np.multiply(y, np.log(mu)) + np.multiply((1. - y), np.log(1. - mu))
 	nll = -sum(temp) + reg / 2 * np.linalg.norm(W) ** 2
@@ -66,7 +63,6 @@ def grad_descent(X, y, reg = 0.0, lr = 1e-4, eps = 1e-6, \
 	# Running the gradient descent algorithm
 	# Update W
 	# Calculate learning objectives
-	# YOUR CODE GOES BELOW
 	while iter_num < max_iter and np.linalg.norm(W_grad) > eps:
 		# calculate NLL
 		nll = NLL(X, y, W, reg = reg)

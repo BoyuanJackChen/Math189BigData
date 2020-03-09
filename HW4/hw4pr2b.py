@@ -12,7 +12,6 @@ def NLL(X, y, W, reg=0.0):
 	'''
 		Calculate negative log likelihood for softmax regression.
 	'''
-	# YOUR CODE GOES BELOW
 	mu = X @ W # m x k
 	exp_mu = np.exp(mu)
 	prob = exp_mu / exp_mu.sum(axis=1).reshape(-1, 1)
@@ -23,7 +22,6 @@ def grad_softmax(X, y, W, reg=0.0):
 	'''
 		Return the gradient of W for softmax regression.
 	'''
-	# YOUR CODE BELOW
 	mu = X @ W
 	exp_mu = np.exp(mu)
 	prob = exp_mu / exp_mu.sum(axis=1).reshape(-1, 1)
@@ -33,7 +31,6 @@ def predict(X, W):
 	'''
 		Return y_pred with dimension m x 1.
 	'''
-	# YOUR CODE BELOW
 	mu = X @ W
 	exp_mu = np.exp(mu)
 	prob = exp_mu / exp_mu.sum(axis=1).reshape(-1, 1)
@@ -104,7 +101,6 @@ def accuracy_vs_lambda(X_train, y_train_OH, X_test, y_test, lambda_list):
 	'''
 	# Find corresponding accuracy values for each parameter
 	accu_list = []
-	# YOUR CODE BELOW
 	for reg in lambda_list:
 		W, nll_list = grad_descent(X_train, y_train_OH, reg=reg, lr=2e-5, \
 		print_freq=50)
