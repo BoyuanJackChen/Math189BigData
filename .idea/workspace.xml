@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63cbe02d-a22a-4a75-8afc-9429b2c3a1a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Math189BigData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Math189BigData.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Jack.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/hw4pr2a_sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW4/hw4pr2b_sol.py" beforeDir="false" />
-    </list>
+    <list default="true" id="63cbe02d-a22a-4a75-8afc-9429b2c3a1a8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
